@@ -1,0 +1,182 @@
+WARNING:discord.ext.commands.bot:Privileged message content intent is missing, commands may not work as expected.
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 0dd046982452e1bdcf10a67e6f735daa).
+INFO:discord.voice_state:Connecting to voice...
+INFO:discord.voice_state:Starting voice handshake... (connection attempt 1)
+INFO:discord.voice_state:Voice handshake complete. Endpoint found: c-ewr16-5620a7ef.discord.media:2096
+INFO:discord.voice_state:Voice connection complete.
+INFO:discord.player:ffmpeg process 11716 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 11856 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 23248 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 26188 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 23388 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 5860 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 14604 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 25652 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 456 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 18648 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 16208 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 23788 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 2976 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 5296 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 16796 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 10740 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 17296 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 20048 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 2520 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 19104 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 26076 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 26332 successfully terminated with return code of 3199971767.
+INFO:discord.voice_state:The voice handshake is being terminated for Channel ID 1444555533838192722 (Guild ID 1356289046996848851)
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-13' coro=<ensure_radio() done, defined at C:\Users\bluem\misfit\main.py:26> exception=ClientException('Not connected to voice.')>
+Traceback (most recent call last):
+  File "C:\Users\bluem\misfit\main.py", line 29, in ensure_radio
+    vc.play(discord.FFmpegPCMAudio(RADIO_URL))
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bluem\Forlorn_Manager\.venv\Lib\site-packages\discord\voice_client.py", line 497, in play
+    raise ClientException('Not connected to voice.')
+discord.errors.ClientException: Not connected to voice.
+INFO:discord.player:ffmpeg process 14884 has not terminated. Waiting to terminate...
+INFO:discord.player:ffmpeg process 14884 should have terminated with a return code of 1.
+WARNING:discord.ext.commands.bot:Privileged message content intent is missing, commands may not work as expected.
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 8bfaca405850d50c638f5582cba64c4c).
+INFO:discord.voice_state:Connecting to voice...
+INFO:discord.voice_state:Starting voice handshake... (connection attempt 1)
+INFO:discord.voice_state:Voice handshake complete. Endpoint found: c-ewr12-a3a84724.discord.media:2096
+INFO:discord.voice_state:Voice connection complete.
+INFO:discord.player:ffmpeg process 12052 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 21308 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 19908 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 22748 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 13316 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 18036 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 7104 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 23300 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 1288 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 25736 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 24176 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 3928 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 24404 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 15528 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 19480 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 6328 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 24056 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 25952 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 26496 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 6704 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 24052 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 24896 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 10672 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 22988 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 26324 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 25832 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 24188 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 2732 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 26568 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 13104 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 6072 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 18864 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 4524 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 11656 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 21020 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 16316 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 15304 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 10464 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 3088 successfully terminated with return code of 3199971767.
+INFO:discord.player:ffmpeg process 14024 successfully terminated with return code of 3199971767.
+INFO:discord.voice_state:The voice handshake is being terminated for Channel ID 1444555533838192722 (Guild ID 1356289046996848851)
+INFO:discord.player:ffmpeg process 164 successfully terminated with return code of 3199971767.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-13' coro=<ensure_radio() done, defined at C:\Users\bluem\misfit\main.py:26> exception=ClientException('Not connected to voice.')>
+Traceback (most recent call last):
+  File "C:\Users\bluem\misfit\main.py", line 29, in ensure_radio
+    vc.play(discord.FFmpegPCMAudio(RADIO_URL))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bluem\Forlorn_Manager\.venv\Lib\site-packages\discord\voice_client.py", line 497, in play
+    raise ClientException('Not connected to voice.')
+discord.errors.ClientException: Not connected to voice.
+INFO:discord.player:ffmpeg process 25264 has not terminated. Waiting to terminate...
+INFO:discord.player:ffmpeg process 25264 should have terminated with a return code of 1.
+WARNING:discord.ext.commands.bot:Privileged message content intent is missing, commands may not work as expected.
+INFO:discord.client:logging in using static token
+WARNING:discord.ext.commands.bot:Privileged message content intent is missing, commands may not work as expected.
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: cb1c80a2dd76894a1025fd55141d2088).
+INFO:discord.voice_state:Connecting to voice...
+INFO:discord.voice_state:Starting voice handshake... (connection attempt 1)
+INFO:discord.voice_state:Voice handshake complete. Endpoint found: c-ewr12-a3a84724.discord.media:2096
+INFO:discord.voice_state:Voice connection complete.
+INFO:discord.player:ffmpeg process 2732 successfully terminated with return code of 3419392776.
+INFO:discord.player:ffmpeg process 26380 successfully terminated with return code of 3419392776.
+INFO:discord.voice_state:The voice handshake is being terminated for Channel ID 1444555533838192722 (Guild ID 1356289046996848851)
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-13' coro=<ensure_radio() done, defined at C:\Users\bluem\misfit\main.py:37> exception=ClientException('Not connected to voice.')>
+Traceback (most recent call last):
+  File "C:\Users\bluem\misfit\main.py", line 41, in ensure_radio
+    vc.play(source)
+    ~~~~~~~^^^^^^^^
+  File "C:\Users\bluem\Forlorn_Manager\.venv\Lib\site-packages\discord\voice_client.py", line 497, in play
+    raise ClientException('Not connected to voice.')
+discord.errors.ClientException: Not connected to voice.
+INFO:discord.player:ffmpeg process 18724 has not terminated. Waiting to terminate...
+INFO:discord.player:ffmpeg process 18724 should have terminated with a return code of 1.
+WARNING:discord.ext.commands.bot:Privileged message content intent is missing, commands may not work as expected.
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: ac00896c870364f7387274e91d5e9860).
+INFO:discord.voice_state:Connecting to voice...
+INFO:discord.voice_state:Starting voice handshake... (connection attempt 1)
+INFO:discord.voice_state:Voice handshake complete. Endpoint found: c-ewr12-a3a84724.discord.media:2096
+INFO:discord.voice_state:Voice connection complete.
+INFO:discord.player:ffmpeg process 19852 successfully terminated with return code of 3419392776.
+INFO:discord.voice_state:The voice handshake is being terminated for Channel ID 1444555533838192722 (Guild ID 1356289046996848851)
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-13' coro=<ensure_radio() done, defined at C:\Users\bluem\misfit\main.py:37> exception=ClientException('Not connected to voice.')>
+Traceback (most recent call last):
+  File "C:\Users\bluem\misfit\main.py", line 41, in ensure_radio
+    vc.play(source)
+    ~~~~~~~^^^^^^^^
+  File "C:\Users\bluem\Forlorn_Manager\.venv\Lib\site-packages\discord\voice_client.py", line 497, in play
+    raise ClientException('Not connected to voice.')
+discord.errors.ClientException: Not connected to voice.
+INFO:discord.player:ffmpeg process 21244 has not terminated. Waiting to terminate...
+INFO:discord.player:ffmpeg process 21244 should have terminated with a return code of 1.
+WARNING:discord.ext.commands.bot:Privileged message content intent is missing, commands may not work as expected.
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 3826810647998d06728d8383fb785daa).
+INFO:discord.voice_state:Connecting to voice...
+INFO:discord.voice_state:Starting voice handshake... (connection attempt 1)
+INFO:discord.voice_state:Voice handshake complete. Endpoint found: c-ewr12-a3a84724.discord.media:2096
+INFO:discord.voice_state:Voice connection complete.
+INFO:discord.player:ffmpeg process 26328 successfully terminated with return code of 4294967291.
+INFO:discord.voice_state:The voice handshake is being terminated for Channel ID 1444555533838192722 (Guild ID 1356289046996848851)
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-13' coro=<ensure_radio() done, defined at C:\Users\bluem\misfit\main.py:37> exception=ClientException('Not connected to voice.')>
+Traceback (most recent call last):
+  File "C:\Users\bluem\misfit\main.py", line 41, in ensure_radio
+    vc.play(source)
+    ~~~~~~~^^^^^^^^
+  File "C:\Users\bluem\Forlorn_Manager\.venv\Lib\site-packages\discord\voice_client.py", line 497, in play
+    raise ClientException('Not connected to voice.')
+discord.errors.ClientException: Not connected to voice.
+INFO:discord.player:ffmpeg process 26292 has not terminated. Waiting to terminate...
+INFO:discord.player:ffmpeg process 26292 should have terminated with a return code of 1.
+INFO:discord.client:logging in using static token
+INFO:discord.client:logging in using static token
+INFO:discord.client:logging in using static token
+INFO:discord.client:logging in using static token
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 8dd02fe6a756a9322fd84d1730d47e41).
+INFO:discord.voice_state:Connecting to voice...
+INFO:discord.voice_state:Starting voice handshake... (connection attempt 1)
+INFO:discord.voice_state:Voice handshake complete. Endpoint found: c-ewr12-a3a84724.discord.media:2096
+INFO:discord.voice_state:Voice connection complete.
+INFO:discord.player:ffmpeg process 904 successfully terminated with return code of 4294967291.
+INFO:discord.voice_state:The voice handshake is being terminated for Channel ID 1444555533838192722 (Guild ID 1356289046996848851)
+INFO:discord.player:ffmpeg process 6008 successfully terminated with return code of 4294967291.
+INFO:discord.player:ffmpeg process 12676 successfully terminated with return code of 4294967291.
+INFO:discord.player:ffmpeg process 25952 successfully terminated with return code of 4294967291.
+INFO:discord.player:ffmpeg process 8500 successfully terminated with return code of 4294967291.
+INFO:discord.player:ffmpeg process 11420 successfully terminated with return code of 4294967291.
+INFO:discord.player:ffmpeg process 23724 successfully terminated with return code of 4294967291.
